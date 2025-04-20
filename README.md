@@ -1,36 +1,37 @@
 
-# py-login-supabase 
-![Imagem da logo padrão do aplicativo](https://cdn-icons-png.flaticon.com/128/15708/15708987.png)
+# py-login-supabase ![Python](https://cdn-icons-png.flaticon.com/64/5968/5968350.png)
 
 
-## Description / Descrição
+## Description / Descrição ![Descricao](https://cdn-icons-png.flaticon.com/32/5107/5107639.png)
 
-### English
-A modern login application built with PyQt5 for the front-end and Supabase for the back-end. This application features a minimalistic and user-friendly design with a secure user registration and login system. The user data is stored securely in Supabase, providing an easy-to-use solution for authentication.
+### English ![eua](https://cdn-icons-png.flaticon.com/32/4628/4628635.png)
+A modern login application built with PyQt5 for the front-end and Supabase for the back-end. This application features a minimalistic and user-friendly design with a secure user registration and login system. The user data is stored securely in [Supabase](https://supabase.com/), providing an easy-to-use solution for authentication.
 
 - **Modern and responsive interface**: Clean design that adjusts to different screen sizes.
 - **User login and registration system**: Allows users to sign up and log in with a secure process.
 - **Secure data storage**: Utilizes Supabase for handling user credentials safely.
 - **Minimalist and user-friendly design**: Focuses on simplicity and ease of use.
 
-### Português
-Uma aplicação de login moderna construída com PyQt5 para o front-end e Supabase para o back-end. Esta aplicação apresenta um design minimalista e amigável ao usuário, com um sistema seguro de registro e login de usuários. Os dados dos usuários são armazenados de forma segura no Supabase, oferecendo uma solução prática para autenticação.
+### Português ![ptbr](https://cdn-icons-png.flaticon.com/32/197/197386.png)
+Uma aplicação de login moderna construída com PyQt5 para o front-end e Supabase para o back-end. Esta aplicação apresenta um design minimalista e amigável ao usuário, com um sistema seguro de registro e login de usuários. Os dados dos usuários são armazenados de forma segura no [Supabase](https://supabase.com/), oferecendo uma solução prática para autenticação.
 
 - **Interface moderna e responsiva**: Design limpo que se ajusta a diferentes tamanhos de tela.
 - **Sistema de login e registro de usuários**: Permite que os usuários se registrem e façam login com um processo seguro.
 - **Armazenamento seguro de dados**: Utiliza o Supabase para gerenciar credenciais de usuários de forma segura.
 - **Design minimalista e amigável**: Foco na simplicidade e facilidade de uso.
 
-## Requirements / Requisitos
+
+## Requirements / Requisitos ![requisitos](https://cdn-icons-png.flaticon.com/32/3524/3524349.png)
 
 - Python 3.x
 - PyQt5
 - requests
 - supabase-py (Python library for interacting with Supabase)
 
-## Installation / Instalação
 
-### English
+## Installation / Instalação ![Instalacao](https://cdn-icons-png.flaticon.com/32/724/724933.png)
+
+### English ![eua](https://cdn-icons-png.flaticon.com/32/4628/4628635.png)
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/MathiasNormanton/py-login-supabase.git
@@ -48,7 +49,7 @@ Uma aplicação de login moderna construída com PyQt5 para o front-end e Supaba
    python main.py
    ```
 
-### Português
+### Português ![ptbr](https://cdn-icons-png.flaticon.com/32/197/197386.png)
 1. Clone este repositório para a sua máquina local:
    ```bash
    git clone https://github.com/MathiasNormanton/py-login-supabase.git
@@ -66,7 +67,7 @@ Uma aplicação de login moderna construída com PyQt5 para o front-end e Supaba
    python main.py
    ```
 
-## Code Overview / Visão Geral do Código
+## Code Overview / Visão Geral do Código ![codigo](https://cdn-icons-png.flaticon.com/32/3573/3573187.png)
 
 The core of the application consists of three main parts:
 - **Login Page**: A simple page where users can enter their credentials to log in.
@@ -113,6 +114,17 @@ Here are some key parts of the code:
        ...
    ```
 
+
+
+
+
+**🧠 Generation Credits** ![Inteligencia Artificial](https://cdn-icons-png.flaticon.com/32/5278/5278402.png)
+
+🧠 Parts of this project were generated with the help of the AI assistant Claude AI. 
+
+
+
+
 ## License / Licença
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. ![Lincense](https://cdn-icons-png.flaticon.com/32/3135/3135763.png)
