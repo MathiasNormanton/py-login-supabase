@@ -18,11 +18,15 @@ supabase = supabase.create_client(url, key)
 
 # Função para baixar ícones
 def download_icon(url, filename):
-    if not os.path.exists("icons"):
-        os.makedirs("icons")
-    
-    filepath = os.path.join("icons", filename)
-    
+    # Obtém o diretório atual do script main.py
+    dir_atual = os.path.dirname(os.path.abspath(__file__))
+    # Cria o caminho para a pasta 'icons' no mesmo diretório do main.py
+    pasta_icons = os.path.join(dir_atual, 'icons')
+    # Verifica se a pasta 'icons' existe, se não, cria ela
+    if not os.path.exists(pasta_icons):
+        os.makedirs(pasta_icons)
+    # Caminho completo do arquivo para salvar
+    filepath = os.path.join(pasta_icons, filename)
     # Só baixa se o arquivo não existir
     if not os.path.exists(filepath):
         try:
@@ -31,7 +35,6 @@ def download_icon(url, filename):
                 f.write(response.content)
         except Exception as e:
             print(f"Erro ao baixar ícone: {e}")
-    
     return filepath
 
 # Baixar ícones
